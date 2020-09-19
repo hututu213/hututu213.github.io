@@ -27,11 +27,4 @@ jobs:
  
     - name: 设置 ssh 存活时间
       if: ${{ failure() }}
-      run: sleep 1h
-
-
-
-作者: 笨蛋海绵
-链接: https://qzkyl.ml/posts/17943.html
-来源: 骑猪看月亮
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+      run: sleep 24h
